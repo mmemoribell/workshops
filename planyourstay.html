@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plan Your Stay</title>
+</head>
+<header>Planning Your Stay</header>
+<body>
+    <h1>When Planning your stay its very important you submit the correct information!</h1>
+<h1>Somethin somethhing</h1>
+<form action="" onsubmit="estimateBtnClicked">
+<label for="firstName">First Name</label>
+<input type="text" name="firstName" id="firstName">
+
+<label for="lastName">Last Name</label>
+<input type="text" name="lastName" id="lastName">
+
+<label for="phoneNumber">Phone Number</label>
+<input type="tel" name="phoneNumber" id="phoneNumber">
+
+<label for="checkindate">Check In Date</label> 
+<input type="date" name="checkInDate" id="checkInDate">
+
+<label for="numberOfNights">Number Of Nights For Your Stay</label>
+<input type="number" name="numberOfNights" id="numberOfNights" min="1" max="28">
+
+<fieldset>
+<label for="roomSelection">Room Selections</label>
+<input type="radio" name="roomSelection" id="Queen"> Queen <br>
+<input type="radio" name="roomSelection" id="King"> King <br>
+<input type="radio" name="roomSelection" id="2bdSuite"> 2 Bedroom Suite <br>
+</fieldset>
+
+<label for="numberOfAdults">Number Of Adults</label>
+<select name="numberOfAdults" id="numberOfAdults">
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+</select>
+
+<label for="numberOfChildren">Number of Children</label>
+<select name="numberOfChildren" id="numberOfChildren">
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+</select>
+
+<fieldset>
+<label for="discountType">Discounts</label>
+<input type="radio" name="discount" id="none"> None<br>
+<input type="radio" name="discount" id="AAA/Senior"> AAA/Senior<br>
+<input type="radio" name="discount" id="military"> Military<br>
+<input type="radio" name="discount" id="bob"> Your Name is Bob <br>
+
+<input type="button" value="Your Total Cost Of Stay" id="costOfStay">
+
+
+</fieldset>
+
+</form>
+
+
+
+
+</body>
+</html>
